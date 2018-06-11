@@ -10,4 +10,9 @@ public class HelloWorldExample {
 		return param.toUpperCase();
 	}
 
+	public int criarBug2(String param){
+		param = 0;
+
+		return 1/param;
+	}
 }
