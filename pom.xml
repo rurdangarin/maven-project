@@ -161,6 +161,22 @@
       </plugins>
     </pluginManagement>
   </build>
+  <reporting>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.codehaus.mojo</groupId>
+  			<artifactId>findbugs-maven-plugin</artifactId>
+  			<version>3.0.4</version>
+  			<configuration>
+  				<xmlOutput>true</xmlOutput>
+  				<findbugsXmlOutput>true</findbugsXmlOutput>
+  				<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </reporting>
+
+
 
   <dependencyManagement>
     <dependencies>
