@@ -6,6 +6,7 @@ public class HelloWorldExample {
 	}
 
 	public String criarBug(String param){
+		param = null;
 		return param.toUpperCase();
 	}
 
