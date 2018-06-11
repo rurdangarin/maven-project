@@ -5,4 +5,8 @@ public class HelloWorldExample {
 		return "Hello World from web java!!"
 	}
 
+	public String criarBug(String param){
+		return param.toUpperCase();
+	}
+
 }
